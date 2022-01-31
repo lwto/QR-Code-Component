@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Outfit:wght@400;700&display=swap");
+:root {
+  --background: hsl(212, 45%, 89%);
+  --paragraph: hsl(220, 15%, 55%);
+  --heading: hsl(218, 44%, 22%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  line-height: 1.7;
+}
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--background);
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.container img {
+  width: 320px;
+  border-radius: .5rem;
+}
+
+.container h1 {
+  font-size: 1.75rem;
+  color: var(--heading);
+  margin-top: 1rem;
+}
+
+.container p {
+  font-size: 1.2rem;
+  color: var(--paragraph);
+  margin: 1rem 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 10px;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.css.map */
